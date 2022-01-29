@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+h1 {
+    text-align: center;
+}
+
+.cheats-img {
+    display: inline-block;
+    width: 48%;
+    object-fit: cover;
+    display: flex;
+}
+
+.cheats-text {
+    display: inline-block;
+    width: 48%;
+    height: 100%;
+    padding: 20px;
+}
+
+.cheats-text h3 {
+    color: rgb(60, 255, 0);
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.cheats-text p {
+    color: white;
+}
+
+.cheats-card {
+    display: flex;
+    padding: 10px;
+    height: 300px;
+}
+
+.cheats-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #33ec05ab;
+    font-size: 22px;
+}
