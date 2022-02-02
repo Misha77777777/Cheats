@@ -33,7 +33,6 @@ h1 {
 .cheats-card {
     display: flex;
     padding: 10px;
-    height: 300px;
 }
 
 .cheats-img img {
@@ -45,4 +44,17 @@ a {
     text-decoration: none;
     color: #33ec05ab;
     font-size: 22px;
+}
+
+@media (max-width:425px) {
+    .cheats-card {
+        flex-direction: column;
+    }
+    .cheats-img {
+        width: 100%;
+    }
+    .cheats-text {
+        width: 100%;
+        padding: 0;
+    }
 }
